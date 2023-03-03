@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100% ;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 10px blue solid;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto ;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.box img{
+    height: 80px;
+    width: 80px;
+}
